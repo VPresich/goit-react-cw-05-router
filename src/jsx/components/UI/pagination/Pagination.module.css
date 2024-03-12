@@ -1,0 +1,22 @@
+.pagesWrapper {
+  width: 500px;
+  display: flex;
+  gap: 4px;
+  margin: 20px auto;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid teal;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pageActive {
+  background-color: teal;
+  color: white;
+}
